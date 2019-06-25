@@ -41,12 +41,12 @@
     "bk_namespace":{
         "prefix": "bk_namespace",
         "description": "Template to create a namespace",
-        "body": "apiVersion: v1\nkind: Namespace\nmetadata:\n	name: ${name: name}"
+        "body": "apiVersion: v1\nkind: Namespace\nmetadata:\n  name: ${name: name}"
     },
     "bk_serviceAccount":{
         "prefix": "bk_serviceAccount",
         "description": "Template to create a ServiceAccount",
-        "body": "apiVersion: v1\nkind: ServiceAccount\nmetadata:\n	name: ${name: name}"
+        "body": "apiVersion: v1\nkind: ServiceAccount\nmetadata:\n  name: ${name: name}"
     }
 }
 
