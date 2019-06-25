@@ -1,9 +1,9 @@
 {
-    "name": "kubernetes-snippets",
+    "name": "bala-bks-kubernetes-snippets",
     "description": "Code snippets of kubernetes for Visual Studio Code. Credits to Ivan Pedrazas, This is modified from him",
     "displayName": "Kubernetes Support",
     "version": "0.1.9",
-    "publisher": "bala",
+    "publisher": "balaprasanna",
     "author": "bala",
     "icon": "images/kubernetes-logo.png",
     "license": "MIT",
