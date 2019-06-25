@@ -1,0 +1,6 @@
+livenessProbe:
+  exec:
+    command:
+      - /bin/my-script.sh
+  initialDelaySeconds: 60
+  timeoutSeconds: 10

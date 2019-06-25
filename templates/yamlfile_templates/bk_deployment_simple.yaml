@@ -1,0 +1,14 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: ${name:Enter deployment name}
+spec:
+  replicas: ${replicas:Enter the number of replicas}
+  template:
+    metadata:
+      labels:
+        editor: vscode
+    spec:
+      containers:
+      - name: ${name}
+        image: ${image:Enter containers image}

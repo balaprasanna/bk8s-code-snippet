@@ -1,0 +1,6 @@
+containers:
+  - image: ${image: image}
+  name: ${name: my-name}
+  env:
+    - name: ${ENVVARNAME: ENVVARNAME}
+      value: ${ENVVARVALUE: ENVVARVALUE}

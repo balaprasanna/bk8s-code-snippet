@@ -1,0 +1,10 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: ${name: name}
+spec:
+  template:
+    metadata:
+      name: ${name: name}
+    spec:
+      containers:

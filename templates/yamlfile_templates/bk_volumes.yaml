@@ -1,0 +1,3 @@
+volumes:
+  - name: ${name: name of the volume}
+  mountPath: ${path: Path to mount}

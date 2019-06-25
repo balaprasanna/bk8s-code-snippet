@@ -1,0 +1,4 @@
+ports:
+- name: ${name: Port Name}
+  port: ${port: Port}
+  targetPort: ${target: Target port}

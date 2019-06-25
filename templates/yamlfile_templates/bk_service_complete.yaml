@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: ${name: Service Name}
+spec:
+  selector:
+    app: ${selector: Selector Label}
+  type: ${type: LoadBalancer | ClusterIP | NodePort}
+  ports:
+  - name: ${portName: name-of-the-port}
+    port: ${port: 80}
+    targetPort: ${targetPort: 8080}

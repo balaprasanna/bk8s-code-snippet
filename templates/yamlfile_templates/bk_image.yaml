@@ -1,0 +1,1 @@
+image: ${image: registry/user/image}
