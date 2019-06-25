@@ -43,6 +43,10 @@
             {
                 "language": "yaml",
                 "path": "./snippets/configmap.json"
+            },
+            {
+                "language": "yaml",
+                "path": "./snippets/common.json"
             }
         ],
         "commands": [

@@ -1,0 +1,7 @@
+{
+    "pod" :{
+        "prefix": "bk_pod_simple",
+        "description": "Simple pod template",
+        "body": "apiVersion: v1\nkind: Pod\nmetadata:\n  name: Enter pod name\n  labels:\n    app: Enter pod name\nspec:\n  containers:\n  - name: Enter container name\n    image: Enter container name\n    ports:\n    - name:  containerport\n      containerPort: Enter container port number\n      protocol: TCP\n"
+    }
+}
