@@ -1,0 +1,7 @@
+{
+  "ingress": {
+    "prefix": "bk_ingress_simple_host",
+    "description": "Simple Ingress template",
+    "body": "apiVersion: networking.k8s.io/v1beta1\nkind: Ingress\nmetadata:\n  name: ${2: Ingress Name}\nspec:\n  rules:\n  - host: ${3:example.com}\n    http:\n      paths:\n      - backend:\n          serviceName: ${4: Service Name}\n          servicePort: ${5: Service Port}\n"
+  }
+}

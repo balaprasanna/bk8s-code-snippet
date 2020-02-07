@@ -47,6 +47,10 @@
             {
                 "language": "yaml",
                 "path": "./snippets/common.json"
+            },
+            {
+                "language": "yaml",
+                "path": "./snippets/ingress.json"
             }
         ],
         "commands": [
